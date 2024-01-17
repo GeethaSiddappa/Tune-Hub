@@ -1,0 +1,33 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d7f5c5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This ensures that the content is centered vertically */
+    font-size:28;
+}
+
+h1 {
+    color: #343a40;
+}
+
+a {
+    text-decoration: none;
+    color: #000080; /* Green color */
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #218838; /* Darker green color on hover */
+}
+
+/* Optional: Add some spacing between links */
+a + br {
+    margin-bottom: 10px;
+}
+
